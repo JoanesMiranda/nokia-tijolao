@@ -14,10 +14,10 @@ public class TijolaoController {
 
     @Autowired
     private TijolaoService service;
-    
+
     @GetMapping
-    public String getMessage(@RequestParam int codigo){
-        return service.getMessage(codigo);
+    public String getMessage(@RequestParam String key, @RequestParam Integer count) {
+        return service.getMessage(key, count);
     }
-    
+
 }

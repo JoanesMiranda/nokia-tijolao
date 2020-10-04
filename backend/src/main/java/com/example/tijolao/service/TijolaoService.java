@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class TijolaoService {
 
-    public String getMessage(int codigo){
-        return "message";
-    }
+	public String getMessage(String key, int count) {
+		return "teste";
+	}
 }
