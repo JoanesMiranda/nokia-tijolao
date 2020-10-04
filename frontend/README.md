@@ -1,4 +1,11 @@
+## TIJOLÃO
+
+Estrutura:
+![alt text](https://i.imgur.com/af9995I.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
 
 ## Available Scripts
 
