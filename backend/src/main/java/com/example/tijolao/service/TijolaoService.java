@@ -11,11 +11,11 @@ import org.springframework.stereotype.Service;
 public class TijolaoService {
 
 	public String getMessage(String key, int count) {
-        String[] letters  = getLetter(key);
+        String[] letters  = getLetters(key);
         return letters[count-1];
     }
     
-    private String[] getLetter(String key) {
+    private String[] getLetters(String key) {
         Dictionary dictionary = new Dictionary();
         return dictionary.getLetters(key);
     }
